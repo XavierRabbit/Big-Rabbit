@@ -41,3 +41,5 @@ when we see New'VM-32-4-ubuntu:1(root)'desktop is VM-32-4-ubuntu:1, it means the
 `vncserver -kill :1`
 
 `vncserver :1`
+
+##Docker is help to setup enviroment
