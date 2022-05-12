@@ -25,8 +25,11 @@ when we see New'VM-32-4-ubuntu:1(root)'desktop is VM-32-4-ubuntu:1, it means the
 4. install X-windows and gdm3 and ubuntu-desktop and gnome packages
 
 `sudo apt-get install x-window-system-core`
+
 `sudo apt-get install gdm3`
+
 `sudo apt-get install ubuntu-desktop`
+
 `sudo apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal`
 
 5. modify VNC settings documentation
@@ -36,4 +39,5 @@ when we see New'VM-32-4-ubuntu:1(root)'desktop is VM-32-4-ubuntu:1, it means the
 6. restart desktop
 
 `vncserver -kill :1`
+
 `vncserver :1`
